@@ -53,7 +53,9 @@ You use these function parameters in folowing ways:
 
 ```javascript
 colored.logs("This text will have red font-color and white(default) background.", "red");
+
 color.logs("This text will have black(default) font-color and blue background.", "", "blue");
+
 cc.logs("This text will have black(default) font-color and white(default) background.");
 ```
 
