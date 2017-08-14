@@ -2,6 +2,8 @@
 
 A JavaScript API module, which allows app to log colored console logs in browser console.
 
+[![NPM](https://nodei.co/npm/colored-console-log.png?downloads=true)](https://nodei.co/npm/colored-console-log/)
+
 **[DEMO](http://www.aniket.co/labs/cc-logs/demo/)**
 
 ## Installation
@@ -49,7 +51,7 @@ Customizable / Optional parameters:
 - **Font-color**: [String][Optional] Font color of text in log, can be HEX value. Default is Black.
 - **Background-color**: [String][Optional] Background color text in log, can be HEX value. Default is White
 
-You use these function parameters in folowing ways:
+You can use these function parameters in folowing ways:
 
 ```javascript
 colored.logs("This text will have red font-color and white(default) background.", "red");
