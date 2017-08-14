@@ -21,22 +21,22 @@ In your `HTML`
 ## Usage
 You can print colored logs in browser console using any of these three functions:
 
-Using `colored-logs()`
+Using `colored.logs()`
 
 ```javascript
-	colored.logs("This text will have red font-color and black background.", "red", "black");
+colored.logs("This text will have red font-color and black background.", "red", "black");
 ```
 
-Using `color-logs()`
+Using `color.logs()`
 
 ```javascript
-	color.logs("This text will have yellow font-color and blue background.", "yellow", "blue");
+color.logs("This text will have yellow font-color and blue background.", "yellow", "blue");
 ```
 
-Using `cc-logs()`
+Using `cc.logs()`
 
 ```javascript
-	cc.logs("This text will have #00FF00 font-color and #000000 background.", "#00FF00", "#000000");
+cc.logs("This text will have #00FF00 font-color and #000000 background.", "#00FF00", "#000000");
 ```
 
 Customizable / Optional parameters:
@@ -45,16 +45,16 @@ Customizable / Optional parameters:
 
 ## Parameters
 
-- **Text**: [String] Message you want to display in snackbar.
+- **Text**: [String] Message you want to display in console log.
 - **Font-color**: [String][Optional] Font color of text in log, can be HEX value. Default is Black.
-- **Background-color**: [String][Optional] Background color of snackbar, can be HEX value. Default is White
+- **Background-color**: [String][Optional] Background color text in log, can be HEX value. Default is White
 
 You use these function parameters in folowing ways:
 
 ```javascript
-	colored.logs("This text will have red font-color and white(default) background.", "red");
-	color.logs("This text will have black(default) font-color and blue background.", "", "blue");
-	cc.logs("This text will have black(default) font-color and white(default) background.");
+colored.logs("This text will have red font-color and white(default) background.", "red");
+color.logs("This text will have black(default) font-color and blue background.", "", "blue");
+cc.logs("This text will have black(default) font-color and white(default) background.");
 ```
 
 ## License
