@@ -1,10 +1,14 @@
 {
   "name": "colored-console-log",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A JavaScript module, which allows app to log colored console logs in browser console.",
   "main": "js/colored-console-log.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniketkudale/colored-console-log.git"
   },
   "keywords": [
     "colored-log",
@@ -12,5 +16,8 @@
     "console-log"
   ],
   "author": "Aniket Kudale",
-  "license": "MIT"
+  "license": "MIT",
+   "bugs": {
+	"url": "https://github.com/aniketkudale/colored-console-log/issues"
+   }
 }
