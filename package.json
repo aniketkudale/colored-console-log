@@ -1,0 +1,16 @@
+{
+  "name": "colored-console-log",
+  "version": "1.0.0",
+  "description": "A JavaScript module, which allows app to log colored console logs in browser console.",
+  "main": "js/colored-console-log.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "colored-log",
+    "colored-console-log",
+    "console-log"
+  ],
+  "author": "Aniket Kudale",
+  "license": "MIT"
+}
