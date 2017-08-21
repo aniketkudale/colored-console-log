@@ -17,7 +17,7 @@ Then just add the module into your HTML:
 In your `HTML`
 
 ```HTML
-<script src="../js/colored-console-log.js"></script>
+<script src="node_modules/colored-console-log/js/colored-console-log.js"></script>
 ```
 
 ## Usage

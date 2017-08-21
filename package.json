@@ -1,6 +1,6 @@
 {
   "name": "colored-console-log",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A JavaScript module, which allows app to log colored console logs in browser console.",
   "main": "js/colored-console-log.js",
   "scripts": {
